@@ -1,0 +1,4 @@
+select version_id,VERSION_SHORT_NAME version_name 
+from dm_version
+where version_id<5
+order by version_id
