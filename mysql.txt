@@ -1,4 +1,0 @@
-select version_id,version_name 
-from dm_version
-where version_id<5
-order by version_id
